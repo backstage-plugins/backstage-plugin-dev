@@ -39,3 +39,24 @@ spec:
     message ExampleMessage {
       string example = 1;
     };
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-openapi-api
+  annotations:
+    tw.com/openapi-doc-url: http://localhost:8080/v3/api-docs.yaml
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: guests
+  system: examples
+  definition: |
+    openapi: 3.0.1
+    info:
+      title: OpenAPI definition
+      version: v0
+    servers: []
+    paths: {}
+    components:
+      schemas: {}

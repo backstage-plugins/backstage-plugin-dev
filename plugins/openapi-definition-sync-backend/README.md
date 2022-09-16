@@ -6,7 +6,7 @@ Website: TBD
 
 API Entity definitions are needed to be kept in sync with the API implementation.
 
-We use [springdoc](https://springdoc.org/) library to automate the generation of API documentation. Hence, the latest documentation for any service API is available to access through an actuator api.
+We use [springdoc](https://springdoc.org/) library to automate the generation of API documentation. Hence, the latest documentation for any service API is available to access through an actuator endpoint.
 
 This plugin provides a post process hook to update the entity definition in the Backstage backend with the latest API documentation fetched from the service. However, the plugin does not update the entity definition in the corresponding catalog-info.yaml.
 

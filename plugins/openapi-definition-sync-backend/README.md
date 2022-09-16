@@ -84,7 +84,7 @@ spec:
 
 ## Screenshots
 
-Screenshot belows shows an API entity page when API documentation fetch fails. This indicates that the entity definition in the Backstage catalog is no longer valid and a refresh is needed.
+Screenshot belows shows an API entity page when API documentation fetch fails. This indicates that the entity definition in the Backstage catalog is no longer up to date with the source and a refresh is needed. However, the previously captured definition is still available for use.
 
 ![API Entity page with error](images/api-with-fetch-error.png)
 

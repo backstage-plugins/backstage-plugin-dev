@@ -47,6 +47,8 @@ export default async function createPlugin(
 ```
 You can also refer the actual code [here](https://github.com/backstage-plugins/backstage-plugin-dev/commit/c52760d945d4a936f6fa46b53882077dd945a850).
 
+This will ensure that the latest API documentation is fetched each time the entity state is refreshed either manually or through a poll.
+
 ### 3. Enable the plugin for API entities
 
 Add following annotation to the API entities to enable the fetching of the API documentation from the service itself.

@@ -28,15 +28,19 @@
     "@types/express": "*",
     "express": "^4.17.1",
     "express-promise-router": "^4.1.0",
-    "winston": "^3.2.1",
     "node-fetch": "^2.6.7",
+    "winston": "^3.2.1",
     "yn": "^4.0.0"
   },
   "devDependencies": {
     "@backstage/cli": "^0.18.1",
+    "@types/fetch-mock": "^7.3.5",
     "@types/supertest": "^2.0.8",
-    "supertest": "^4.0.2",
-    "msw": "^0.44.0"
+    "fetch-mock": "^9.11.0",
+    "fetch-mock-jest": "^1.5.1",
+    "loadsh": "^0.0.4",
+    "msw": "^0.44.0",
+    "supertest": "^4.0.2"
   },
   "files": [
     "dist"

@@ -90,4 +90,5 @@ Screenshot belows shows an API entity page when API documentation fetch fails. T
 
 ## Limitations
 
-Works only with API entities of type `openapi`.
+- Works only with API entities of type `openapi`.
+- Does not update the entity definition in the corresponding `catalog-info.yaml`.
